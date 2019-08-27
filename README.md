@@ -6,9 +6,9 @@ implemented with "keywords" that are coded to perform all the steps in a test ca
 guarantee execution order.  A dir containing test case files is an implied test suite.
 
 A test case file typically has three sections:
-   Settings:  Things required to setup the test environment before the test cases are executed
-   Variables: Variables common to all the test cases in this file
-   Test Cases:  The test cases themselves made up of the test name and the keywowrds required to implement it
-   Keywords:  The definition of each keyword used in a test case
+   Settings:  Things required to setup the test environment before the test cases are executed.
+   Variables: Variables common to all the test cases in this file.
+   Test Cases:  The test cases themselves made up of the test name and the keywowrds required to implement it.
+   Keywords:  The definition of each keyword used in a test case.
    
 
