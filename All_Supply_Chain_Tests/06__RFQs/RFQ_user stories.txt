@@ -1,0 +1,47 @@
+RFQ Bidding User Stories
+
+(Add this to "Company Settings" test suite)
+Given I'm logged in as a Company Admin
+Then I can add registered users from other companies to the contacts
+And these company should show up in "Send RFQ to bidders" page
+And I can see the "RFQs" link on the left menu 
+
+Given I'm logged in as "a user that created an RFQ"
+And I'm at the "Send RFQ to bidders" screen
+Then I can Send RFQ to bidders using company contacts 
+  and I can verify that all RFQ emails are sent in the "Sent to Contacts" tab
+Then I can Send RFQ to bidders using uploaded contacts via CSV
+  and I can verify that all RFQ emails are sent in the "Sent to Contacts" tab
+Then I can Send RFQ to bidders using an entered list of emails
+  and I can verify that all RFQ emails are sent in the "Sent to Contacts" tab
+And each unique recipient recieves only one email
+
+Given I'm a RFQ bidder with an existing account 
+Then I get a message inviting me to bid
+and the message has a link that takes to the "Submit your bid page"
+and I can upload the bid zip file
+and I can see the file has been uploaded
+
+Given I'm a RFQ bidder without an existing account 
+Then I get a message inviting me to signup and bid (complete company registration)
+and the message has a link that takes to the "Submit your bid page"
+Then I can sign-in and can navigate to RFQs from the left menu
+and I can see list of companies requesting quotes
+and I can see any submitted quotes
+and I can submit new and delete quotes if RFQ date is in the future 
+
+Given I'm logged in as a Company Admin
+and I'm at the RFQ page
+if the due date of the RFQ is past then I can download the zipfile
+  and I can verify the zip contents
+if the date due date of the RFQ is in the future then I can only see a response and can't download
+  and I can see all RFQs submitted
+
+Given I'm logged in as a Company Admin
+and I'm at the RFQs page and click on a RFQ and bids tab
+and I can click the awards action if the due date is past
+and I can't see the award option if the the date is in the future
+and I can verify bidders receive the email of the award
+then I can verfiy the bid shows as awarded
+
+

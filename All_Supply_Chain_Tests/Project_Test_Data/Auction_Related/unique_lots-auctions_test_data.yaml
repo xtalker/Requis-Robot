@@ -1,0 +1,63 @@
+lots:
+
+-   name: First Marketplace Lot (ID-959)
+    start_bid: 100
+    condition: new
+    country: US
+    state:  NC
+    city: Raleigh
+    description: This is the first market place lot
+    images: oil_gas_image_1.jpeg
+    manifest: Oil_Gas_Manifest_1.csv
+
+-   name: Second Marketplace Lot (ID-959)
+    start_bid: 10
+    condition: used
+    country: AU
+    state:  WA
+    city: Perth
+    description: This is the second market place lot
+    images: oil_gas_image_2.jpeg
+    manifest: Oil_Gas_Manifest_1.csv
+
+-   name: Third Marketplace Lot (ID-959)
+    start_bid: 100
+    condition: scrap
+    country: GB
+    state:  London
+    city: London
+    description: This is the third market place lot
+    images: it_gear_image_1.jpeg
+    manifest: IT_Manifest_1.csv
+
+-   name: Third Marketplace Lot (ID-959) (EDITED)
+    start_bid: 101
+    condition: used
+    country: CN
+    state:  Longdong
+    city: Bejing
+    description: This is the third market place lot that has been edited
+    images: it_gear_image_2.jpeg
+    manifest: IT_Manifest_1.csv
+
+auctions:
+
+-   name: First Auction (ID-959)
+    start_date: '- 1 days'
+    end_date: '+ 1 days'
+    description: This is the first test auction
+
+-   name: Second Auction (ID-959)
+    start_date: '- 1 hours'
+    end_date: '+ 1 hours'
+    description: This is the second test auction    
+
+-   name: Third Auction (ID-959)
+    start_date: '- 7 days'
+    end_date: '+ 7 days'
+    description: This is the third test auction    
+
+-   name: Third Auction (ID-959) (EDITED)
+    start_date: '- 10 days'
+    end_date: '+ 10 days'
+    description: This is the third test auction that has been edited       

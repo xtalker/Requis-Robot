@@ -1,0 +1,110 @@
+---
+global_admins_email: requistest+global_admins@gmail.com
+global_admin_username: requistest+globaladmin@gmail.com
+global_admin_passwd: password 
+
+company_1:
+  base_company_name: YoYoDyne_Propulsion_Systems
+  tax_id_number: 123456
+  sale_fee: 15.0
+  contact_name_1: John Bigbooty
+  address_full_name: YoYoDyne_Propulsion_Systems International
+  address_1: 123 Main St.
+  city: Grovers Mill
+  state: NJ
+  postal_code: 12345
+  country: US
+  email: info@yoyodyne.com
+  website: http://www.yoydyne.com
+  phone: 800-555-1111
+
+  admin:
+    email: requistest@gmail.com
+    name: Charlie CompanyAdmin
+    password: password
+  user1:
+    email: requistest+user1@gmail.com
+    name: Bert UserOne
+    password: password
+  user2:
+    email: requistest+user2@gmail.com
+    name: Mary UserTwo
+    password: password
+  user3:
+    email: requistest+user3@gmail.com
+    name: Sammy UserThree
+    password: password
+  user4:
+    email: requistest+user4@gmail.com
+    name: Herb UserFour
+    password: password
+
+  company_contacts:
+    group_1:
+    -   name: Joe Group1
+        email: requistest+joe-group1@gmail.com
+    -   name: Bob Group1
+        email: requistest+bob-group1@gmail.com     
+    group_2:
+    -   name: Jim Group2
+        email: requistest+jim-group2@gmail.com
+    -   name: Tom Group2
+        email: requistest+tom-group2@gmail.com     
+    group_3:
+    -   name: Harry Group3
+        email: requistest+harry-group3@gmail.com
+    -   name: Fred Group3
+        email: requistest+fred-group3@gmail.com     
+
+company_2:
+  base_company_name: google
+  tax_id_number: 3333
+  sale_fee: 15.0
+  contact_name_1: John Googler
+  address_full_name: Google
+  address_1: 1 Amphitheater Way
+  city: Mountain View
+  state: CA
+  postal_code: 12345
+  country: US
+  email: info@google.com
+  website: http://www.google.com
+  phone: 123-123-1234
+  admin:
+    email: requistest+google@gmail.com
+    name: John Googler
+    password: password
+
+company_apple:
+  bank_account: 12345678
+  bank_routing: 90123456
+  base_company_name: Apple
+  admin_user: requistest+steve@gmail.com
+  admin_password: password 
+  user1_name: Apple_seller
+  user1_password: password
+  user1_email: requistest+apple_seller@gmail.com
+  user2_name: Apple_buyer
+  user2_password: password
+  user2_email: requistest+apple_buyer@gmail.com
+
+company_microsoft:  
+  bank_account: 1234ABCD
+  bank_routing: 4568DEFG
+  base_company_name: Microsoft
+  admin_user:  requistest+ms_bill@gmail.com
+  admin_password:  password
+  user1_name: MS_seller
+  user1_password: password
+  user1_email: requistest+ms_seller@gmail.com
+  user2_name: MS_buyer
+  user2_password: password
+  user2_email: requistest+ms_buyer@gmail.com
+  user3_name: MS_user3
+  user3_password: password
+  user3_email: requistest+ms_user3@gmail.com
+  user4_name: MS_user4
+  user4_password: password
+  user4_email: requistest+ms_user4@gmail.com
+
+

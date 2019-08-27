@@ -1,0 +1,129 @@
+PROJECT_1:
+  name: RFQ Test Project_1
+  number: "1234"
+  jobsite: Raleigh, NC
+
+PROJECT_2:
+  name: RFQ Test Project_2
+  number: "5678"
+  jobsite: Cary, NC
+
+PROJECT_3:
+  name: RFQ Test Project_3
+  number: "1111"
+  jobsite: Garner, NC
+
+PROJECT_4:
+  name: RFQ Test Project_4
+  number: "2222"
+  jobsite: Apex, NC
+
+PROJECT_5:
+  name: RFQ Test Project_5 (edited)
+  number: "3333"
+  jobsite: Wendell, NC
+
+RFQ_1:
+  project: PROJECT_1
+  status: Active
+  rfq_name: "First RFQ for Test Project #1"
+  number: 2222
+  issue_date: '- 1 days'
+  due_date: '+ 2 days'
+  due_time:  '12:30'
+  initiator: Herb Stempel
+  description: This is a short description of the first RFQ.
+
+RFQ_2:
+  project: PROJECT_2
+  status: Inactive
+  rfq_name: "Second RFQ for Test Project #1"
+  number: 3333
+  issue_date: '- 30 days'
+  due_date: '+ 30 days'
+  due_time:  '13:30'
+  initiator: Sir Walter Raleigh
+  description: This is a short description of the second RFQ.
+
+RFQ_3:
+  project:  PROJECT_3
+  status: Archived
+  rfq_name: "RFQ for Test Project #3 (edited)"
+  number: 5555
+  issue_date: '- 10 days'
+  due_date: '+ 10 days'
+  due_time:  '08:30'
+  initiator: Hank Moody
+  description: This is an edited short description of the edited RFQ.
+
+RFQ_ITEM_LIST:
+-   item_number: 1
+    commodity-tag: wp-123
+    description: new sensors
+    quantity: 100
+    unit: EA
+    delivery_site: Qatar warehouse
+
+-   item_number: 2
+    commodity-tag: wp-246
+    description: Used valves
+    quantity: 2
+    unit: EA
+    delivery_site: East Bumfuque TX, USA warehouse
+
+
+RFQ_BID_1:
+-   item_number: 1
+    bid_delivery_time: 2
+    bid_unit_price: $200.00
+    bid_total_price: $20,000.00
+    bid_currency: USD
+    bid_remarks: From RFQ_test_data, RFQ_BID_2, Item 1
+
+-   item_number: 2
+    bid_delivery_time: 4
+    bid_unit_price: $500.00
+    bid_total_price: $1,000.00
+    bid_currency: USD
+    bid_remarks: From RFQ_test_data, RFQ_BID_2, Item 2
+
+RFQ_BID_2:
+-   item_number: 1
+    bid_delivery_time: 1
+    bid_unit_price: $100.00
+    bid_total_price: $10,000.00
+    bid_currency: USD
+    bid_remarks: From RFQ_test_data, RFQ_BID_1, Item 1
+
+-   item_number: 2
+    bid_delivery_time: 3
+    bid_unit_price: $750.00
+    bid_total_price: $1,500.00
+    bid_currency: USD
+    bid_remarks: From RFQ_test_data, RFQ_BID_1, Item 2
+
+RFQ_COMMERCIAL_DOCUMENT_LIST:
+-   number: 1
+    title: Item Specification
+    revision: 1.2.3
+    applies_to_items: 1
+    link: "https://picsum.photos/g/200/?image=472"
+
+-   number: 2
+    title: Company specifications
+    revision: 2.4.6
+    applies_to_items: 1
+    link: "https://picsum.photos/g/200/?image=473" 
+
+RFQ_TECH_DOCUMENT_LIST:
+-   number: 1
+    title: Technical Document 1
+    revision: 1.2.3
+    applies_to_items: 1
+    link: "https://picsum.photos/g/201/?image=472"
+
+-   number: 2
+    title:  Technical Document 2
+    revision: 2.4.6
+    applies_to_items: 2
+    link: "https://picsum.photos/g/202/?image=473" 

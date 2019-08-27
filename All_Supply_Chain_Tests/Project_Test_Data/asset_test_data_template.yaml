@@ -1,0 +1,528 @@
+# This group used for package - buy now
+asset_group1:
+
+-   category: Piping, Systems and Refratories
+    subcategory: Valve - Gate
+    manufacturer: ValveCo
+    manufacturer_model: XYZ ABC-LG
+    manufacturer_sku: 89GF37ZC
+    quantity: 2
+    units: ea
+    condition: Used
+    size1: 100
+    size2: "200"
+    original_purch_price: "$299"
+    currency: AUD
+    country: AU
+    name: Gate Valve ID____
+    description: "High quality valves, good for any projects."
+    images: "https://picsum.photos/g/200/?image=472, https://picsum.photos/g/200/?image=473"
+    certifications: "http://certification-1-link.html, http://certification-2-link.html, http://certification-3-link.html"
+    catalogs: "http://catalog-1-link.html, http://catalog-2-link.html, http://catalog-3-link.html"
+    specifications: "http://spec-1-link.html, http://spec-2-link.html, http://spec-3-link.html, http://spec-4-link.html"
+    starting_bid: 100
+    buy_now_amount: 200
+    lead_time: 1
+    shipping_weight: 75
+    shipping_dimensions: "1x1"
+    packaged: yes
+    hazmat: no
+    msds_docs: yes
+    whole_item: yes
+    custom_field_1: "This is part of Asset Group 1"
+    custom_field_2: "Custom field #2 text"
+
+-   category: IT
+    subcategory: Servers
+    manufacturer: ServerCo
+    manufacturer_model: XLG CA7
+    manufacturer_sku: Z73XYZ
+    quantity: 4
+    units: ea
+    condition: Open Box - Like New
+    size1: 10
+    size2: 20
+    original_purch_price: 500
+    currency: AUD
+    country: AU
+    name: XD Server ID____
+    description: Like new XD 2009 Server.
+    images: "https://picsum.photos/g/200/?image=474"
+    certifications: "http://some-cert-1-link.html, http://some-cert-2-link.html, http://some-cert-3-link.html"
+    catalogs: 
+    specifications: "http://some-spec-1-link.html, http://some-spec-2-link.html"
+    starting_bid: 300
+    buy_now_amount: 400
+    lead_time: 2
+    shipping_weight: 50
+    shipping_dimensions: "18x20"
+    packaged: no
+    hazmat: no
+    msds_docs: no
+    whole_item: yes
+    custom_field_1: "This is part of Asset Group 1"
+    custom_field_2:
+
+-   category: IT
+    subcategory: Routers
+    manufacturer: RouterCo
+    manufacturer_model: ABC 123
+    manufacturer_sku: 12345ABCD
+    quantity: 6
+    units: ea
+    condition: Scrap / BER
+    size1: 10
+    size2: 20
+    original_purch_price: $700.00
+    currency: AUD
+    country: AU
+    name: Super Router ID____
+    description: Like new Super Duper Router.
+    images: "https://picsum.photos/g/200/?image=475"
+    certifications: "http://Certification-link.html"
+    catalogs: "http://Catalog-link.html"
+    specifications: "http://Specification-link.html"
+    starting_bid: 500
+    buy_now_amount: 600
+    lead_time: 30
+    shipping_weight: 100
+    shipping_dimensions: "10x10"
+    packaged: no
+    hazmat: yes
+    msds_docs: yes
+    whole_item: no
+    custom_field_1: "This is part of Asset Group 1"
+    custom_field_2:
+
+-   category: IT
+    subcategory: Switches
+    manufacturer: SwitchCo
+    manufacturer_model: DEF456
+    manufacturer_sku: 6789EFGH
+    quantity: 8
+    units: ea
+    condition: New - Factory Sealed
+    size1: 120
+    size2: 240
+    original_purch_price: $900
+    currency: AUD
+    country: AU
+    name: Super switch ID____
+    description: Like new sweet switch.
+    images: "https://picsum.photos/g/200/?image=476"
+    certifications: "http://Certification-link.html"
+    catalogs: "http://Catalog-link.html"
+    specifications: "http://Specification-link.html"
+    starting_bid: 700
+    buy_now_amount: 800
+    lead_time: 120
+    shipping_weight: 240
+    shipping_dimensions: "10x10"
+    packaged: no
+    hazmat: no
+    msds_docs: no
+    whole_item: yes
+    custom_field_1: "This is part of Asset Group 1"
+    custom_field_2:
+
+# This group used for package - offers
+asset_group2:
+-   category: Commodity
+    subcategory: Equipment or Bulk Description
+    manufacturer: TubeCo
+    manufacturer_model: Tiny
+    manufacturer_sku: 123456
+    quantity: 1
+    units: ea
+    condition: New - Factory Sealed
+    size1:
+    size2:
+    original_purch_price: "$1100"
+    currency: USD
+    country: NC
+    name: Tiny Tubes ID____
+    description: "High quality tubes, good for any projects."
+    images: "https://picsum.photos/g/200/?image=477, https://picsum.photos/g/200/?image=478"
+    certifications: "http://certification-1-link.html, http://certification-2-link.html, http://certification-3-link.html"
+    catalogs: "http://catalog-1-link.html, http://catalog-2-link.html, http://catalog-3-link.html"
+    specifications: "http://spec-1-link.html, http://spec-2-link.html, http://spec-3-link.html, http://spec-4-link.html"
+    starting_bid: 900
+    buy_now_amount: 1000
+    lead_time:
+    shipping_weight:
+    shipping_dimensions:
+    packaged:
+    hazmat:
+    msds_docs:
+    whole_item:
+    custom_field_1: "This is part of Asset Group 2"
+    custom_field_2:
+
+-   category: Commodity
+    subcategory: Equipment or Bulk Description
+    manufacturer: TubeCo
+    manufacturer_model: Medium
+    manufacturer_sku: 123457
+    quantity: 1
+    units: ea
+    condition: Used
+    size1:
+    size2:
+    original_purch_price: "$1300"
+    currency: USD
+    country: NC
+    name: Medium Tubes ID____
+    description: "High quality tubes, good for any projects."
+    images: "https://picsum.photos/g/200/?image=479, https://picsum.photos/g/200/?image=480"
+    certifications: "http://certification-1-link.html, http://certification-2-link.html, http://certification-3-link.html"
+    catalogs: "http://catalog-1-link.html, http://catalog-2-link.html, http://catalog-3-link.html"
+    specifications: "http://spec-1-link.html, http://spec-2-link.html, http://spec-3-link.html, http://spec-4-link.html"
+    starting_bid: 1100
+    buy_now_amount: 1200
+    lead_time:
+    shipping_weight:
+    shipping_dimensions:
+    packaged:
+    hazmat:
+    msds_docs:
+    whole_item:
+    custom_field_1: "This is part of Asset Group 2"
+    custom_field_2:
+
+# This group used as individual assets
+asset_group3:
+-   category: Instrumentation
+    subcategory: Gauge Glasses
+    manufacturer: BowlCo
+    manufacturer_model: Round
+    manufacturer_sku: 123458
+    quantity: 10
+    units: ea
+    condition: Open Box - Like New
+    size1:
+    size2:
+    original_purch_price: 1500
+    currency: USD
+    country: US
+    name: Small Glasses ID____
+    description: "High quality gauge glasses, good for any projects."
+    images: "https://picsum.photos/g/200/?image=481, https://picsum.photos/g/200/?image=482"
+    certifications: "http://certification-1-link.html, http://certification-2-link.html, http://certification-3-link.html"
+    catalogs: "http://catalog-1-link.html, http://catalog-2-link.html, http://catalog-3-link.html"
+    specifications: "http://spec-1-link.html, http://spec-2-link.html, http://spec-3-link.html, http://spec-4-link.html"
+    starting_bid: 1300
+    buy_now_amount: 1400
+    lead_time:
+    shipping_weight:
+    shipping_dimensions:
+    packaged:
+    hazmat:
+    msds_docs:
+    whole_item:
+    custom_field_1: "This is part of Asset Group 3"
+    custom_field_2:
+
+-   category: Instrumentation
+    subcategory: Gauge Glasses
+    manufacturer: BowlCo
+    manufacturer_model: Oblong
+    manufacturer_sku: 123459
+    quantity: 10
+    units: ea
+    condition: Scrap / BER
+    size1:
+    size2:
+    original_purch_price: "$1700"
+    currency: USD
+    country: US
+    name: Medium Glasses ID____
+    description: "High quality gauge glasses, good for any projects."
+    images: "https://picsum.photos/g/200/?image=483, https://picsum.photos/g/200/?image=484"
+    certifications: "http://certification-1-link.html, http://certification-2-link.html, http://certification-3-link.html"
+    catalogs: "http://catalog-1-link.html, http://catalog-2-link.html, http://catalog-3-link.html"
+    specifications: "http://spec-1-link.html, http://spec-2-link.html, http://spec-3-link.html, http://spec-4-link.html"
+    starting_bid: 1500
+    buy_now_amount: 1600
+    lead_time:
+    shipping_weight:
+    shipping_dimensions:
+    packaged:
+    hazmat:
+    msds_docs:
+    whole_item:
+    custom_field_1: "This is part of Asset Group 3"
+    custom_field_2:
+        
+-   category: Instrumentation
+    subcategory: Gauge Glasses
+    manufacturer: BowlCo
+    manufacturer_model: Square
+    manufacturer_sku: 123460
+    quantity: 10
+    units: ea
+    condition: New - Factory Sealed
+    size1:
+    size2:
+    original_purch_price: "$1800"
+    currency: USD
+    country: US
+    name: Large Glasses ID____
+    description: "High quality gauge glasses, good for any projects."
+    images: "https://picsum.photos/g/200/?image=485, https://picsum.photos/g/200/?image=486"
+    certifications: "http://certification-1-link.html, http://certification-2-link.html, http://certification-3-link.html"
+    catalogs: "http://catalog-1-link.html, http://catalog-2-link.html, http://catalog-3-link.html"
+    specifications: "http://spec-1-link.html, http://spec-2-link.html, http://spec-3-link.html, http://spec-4-link.html"
+    starting_bid: 1600
+    buy_now_amount: 1700
+    lead_time:
+    shipping_weight:
+    shipping_dimensions:
+    packaged:
+    hazmat:
+    msds_docs:
+    whole_item:
+    custom_field_1: "This is part of Asset Group 3"
+    custom_field_2:
+
+# This group used for custom offers
+asset_group4:
+-   category: Marine
+    subcategory: Concrete Armour
+    manufacturer: CupCo
+    manufacturer_model: Square
+    manufacturer_sku: 123460
+    quantity: 10
+    units: ea
+    condition: New - Factory Sealed
+    size1:
+    size2:
+    original_purch_price: "$18"
+    currency: SAR
+    country: SA
+    name: Square Armour ID____
+    description: "High quality concrete armour, good for any projects."
+    images: "https://picsum.photos/g/200/?image=486"
+    certifications:
+    catalogs: 
+    specifications: 
+    starting_bid: 10
+    buy_now_amount: 17
+    lead_time:
+    shipping_weight:
+    shipping_dimensions:
+    packaged:
+    hazmat:
+    msds_docs:
+    whole_item:
+    custom_field_1: "This is part of Asset Group 4"
+    custom_field_2:
+
+-   category: Precast
+    subcategory: Catch Basin and Manhole
+    manufacturer: CupCo
+    manufacturer_model: Tall
+    manufacturer_sku: 123460
+    quantity: 10
+    units: ea
+    condition: Open Box - Like New
+    size1:
+    size2:
+    original_purch_price: "$20"
+    currency: SAR
+    country: SA
+    name: Tall Basin ID____
+    description: "High quality catch basin, good for any projects."
+    images: "https://picsum.photos/g/200/?image=487"
+    certifications:
+    catalogs: 
+    specifications: 
+    starting_bid: 11
+    buy_now_amount: 18
+    lead_time:
+    shipping_weight:
+    shipping_dimensions:
+    packaged:
+    hazmat:
+    msds_docs:
+    whole_item:
+    custom_field_1: "This is part of Asset Group 4"
+    custom_field_2:
+
+-   category: Cups
+    subcategory: Glass
+    manufacturer: CupCo
+    manufacturer_model: Wide
+    manufacturer_sku: 123460
+    quantity: 10
+    units: ea
+    condition: Used
+    size1:
+    size2:
+    original_purch_price: "$22"
+    currency: SAR
+    country: SA
+    name: Wide Cups ID____
+    description: "High quality cups, good for any projects."
+    images: "https://picsum.photos/g/200/?image=488"
+    certifications:
+    catalogs: 
+    specifications: 
+    starting_bid: 12
+    buy_now_amount: 18
+    lead_time:
+    shipping_weight:
+    shipping_dimensions:
+    packaged:
+    hazmat:
+    msds_docs:
+    whole_item:
+    custom_field_1: "This is part of Asset Group 4"
+    custom_field_2:
+
+# This group used for individual assets auctions
+asset_group5:
+-   category: Auctions
+    subcategory: Overthrusters
+    manufacturer: YoYoDyne
+    manufacturer_model: Version 1
+    manufacturer_sku: 123460
+    quantity: 1
+    units: ea
+    condition: New - Factory Sealed
+    size1:
+    size2:
+    original_purch_price: "$18000"
+    currency: USD
+    country: US
+    name: Overthruster ID____
+    description: "High quality Overthruster, good for time travelprojects."
+    images: "https://picsum.photos/g/20/?image=487"
+    certifications:
+    catalogs: 
+    specifications: 
+    buy_now_amount: 17000
+    lead_time:
+    shipping_weight:
+    shipping_dimensions:
+    packaged:
+    hazmat:
+    msds_docs:
+    whole_item:
+    custom_field_1: "This is part of Asset Group 5 (asset auctions)"
+    custom_field_2:
+    auction_start_date: '+ 0 days'
+    auction_end_date: '+ 1 days'
+    starting_bid: 1000
+    reserve_price:  10000
+
+-   category: Auctions
+    subcategory: Flux capacitors
+    manufacturer: YoYoDyne
+    manufacturer_model: Version 2.0
+    manufacturer_sku: 123461
+    quantity: 1
+    units: ea
+    condition: New - Factory Sealed
+    size1:
+    size2:
+    original_purch_price: "$180000"
+    currency: USD
+    country: US
+    name: Flux Capacitor ID____
+    description: "High quality flux capacitor, good for time travelprojects."
+    images: "https://picsum.photos/g/20/?image=488"
+    certifications:
+    catalogs: 
+    specifications: 
+    buy_now_amount: 170000
+    lead_time:
+    shipping_weight:
+    shipping_dimensions:
+    packaged:
+    hazmat:
+    msds_docs:
+    whole_item:
+    custom_field_1: "This is part of Asset Group 5 (asset auctions)"
+    custom_field_2:
+    auction_start_date: '+ 0 days'
+    auction_end_date: '+ 1 days'
+    starting_bid: 10000
+    reserve_price:  100000
+
+# This group used for package auctions
+asset_group6:
+-   category: Auctions
+    subcategory: Light Sabers
+    manufacturer: YoYoDyne
+    manufacturer_model: Version 1
+    manufacturer_sku: 1234601
+    quantity: 1
+    units: ea
+    condition: New - Factory Sealed
+    size1:
+    size2:
+    original_purch_price: "$180000"
+    currency: USD
+    country: US
+    name: Light Saber ID____
+    description: "High quality light sabers with plenty of energy"
+    images: "https://picsum.photos/g/20/?image=468"
+    certifications:
+    catalogs: 
+    specifications: 
+    buy_now_amount: 170000
+    lead_time:
+    shipping_weight:
+    shipping_dimensions:
+    packaged:
+    hazmat:
+    msds_docs:
+    whole_item:
+    custom_field_1: "This is part of Asset Group 6 (package auctions)"
+    custom_field_2:
+    auction_start_date: '+ 0 days'
+    auction_end_date: '+ 1 days'
+    starting_bid: 10000
+    reserve_price:  1000000
+
+-   category: Auctions
+    subcategory: Tricorder
+    manufacturer: YoYoDyne
+    manufacturer_model: Version 2.0
+    manufacturer_sku: 1234612
+    quantity: 1
+    units: ea
+    condition: New - Factory Sealed
+    size1:
+    size2:
+    original_purch_price: "$19000"
+    currency: USD
+    country: US
+    name: Tricorder ID____
+    description: "High quality touchless diagnostic tricorder, normal wear."
+    images: "https://picsum.photos/g/20/?image=469"
+    certifications:
+    catalogs: 
+    specifications: 
+    buy_now_amount: 17000
+    lead_time:
+    shipping_weight:
+    shipping_dimensions:
+    packaged:
+    hazmat:
+    msds_docs:
+    whole_item:
+    custom_field_1: "This is part of Asset Group 6 (package auctions)"
+    custom_field_2:
+    auction_start_date: '+ 0 days'
+    auction_end_date: '+ 1 days'
+    starting_bid: 10000
+    reserve_price:  10000
+
+asset_group6_auction_params:
+    auction_start_date: '+ 0 days'
+    auction_end_date: '+ 1 days'
+    starting_bid: 10000
+    reserve_price:  100000
+
+
