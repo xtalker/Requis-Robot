@@ -1,7 +1,7 @@
 # Requis-Robot
 This is the Robot Framework test environment that I used to test Requis.com
 
-The vision driving Requis.com was to become integral to a targeted industry's supplychain management by creating an online marketplace for surplus capital equipment.  By creating a web app with a user experience something like Amazon/Ebay only focused not on consumers but the B2B supplychain.  The major workflows in this app included buying, listing, selling and auctions.  Initially targeted at the oil & gas and IT idustries.
+The vision driving Requis.com was to become integral to a targeted industry's supplychain management by creating an online marketplace for surplus capital equipment.  By creating a web app with a user experience something like Amazon/Ebay only focused not on consumers but the B2B supplychain.  The major workflows in this app included: user registration, listing, buying, selling and auctions.
 
 The Robot Framework allows test cases to be written in a BDD/"Cucumber" type style.  The test case automation is
 implemented with "keywords" that are coded to perform all the steps in a test case.  
